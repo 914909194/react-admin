@@ -13,7 +13,9 @@ import i18n from "i18next";
 import "moment/dist/locale/zh-cn";
 
 const App = (props: any) => {
-	console.log("App收到的",props);
+	console.log("App收到的111",props);
+	console.log("App收到的111",props);
+
 	const { language, assemblySize, themeConfig, setLanguage } = props;
 	const [i18nLocale, setI18nLocale] = useState(zhCN);
 
