@@ -13,7 +13,7 @@ import i18n from "i18next";
 import "moment/dist/locale/zh-cn";
 
 const App = (props: any) => {
-	console.log("App",props);
+	console.log("App22",props);
 	const { language, assemblySize, themeConfig, setLanguage } = props;
 	const [i18nLocale, setI18nLocale] = useState(zhCN);
 
